@@ -20,5 +20,3 @@ yarn-error.log*
 *.sln
 *.sw?
 
-# Custom settings
-settings.js
