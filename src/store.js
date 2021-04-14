@@ -2,8 +2,7 @@ import Vue from "vue";
 import Vuex from "vuex";
 
 const state = {
-    specials : [
-        {
+    specials: [{
             image: "/img/special-1.jpg",
             text: "เทศกาล Work from home สั่งกลับบ้านลด 50%"
         },
@@ -16,8 +15,7 @@ const state = {
             text: "เทศกาล Work from home สั่งกลับบ้านลด 50%"
         }
     ],
-    menus: [
-        {
+    menus: [{
             image: "/img/menu-1.jpg",
             text: "คาปูชิโนร้อน",
             price: 45,
@@ -52,9 +50,16 @@ const state = {
             text: "ชาเขียวเย็น",
             price: 40,
             love: false
-        }
+        },
+        {
+            image: "/img/menu-6.jpg",
+            text: "ชาเขียวเย็น1-",
+            price: 40,
+            love: false
+        },
+
     ],
-    orders : [],
+    orders: [],
     orderInfo: null
 };
 

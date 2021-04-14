@@ -1,8 +1,9 @@
 <template>
   <v-app>
+  
     <v-app-bar app color="deep-purple accent-4" dark>
       <v-icon class="mr-5">mdi-coffee-outline</v-icon>
-      <v-toolbar-title>KafareUP</v-toolbar-title>
+      <v-toolbar-title>Kafare</v-toolbar-title>
 
       <v-spacer></v-spacer>
 
@@ -19,6 +20,7 @@
           </v-list-item>
           <v-divider></v-divider>
           <v-list-item @click="signout">
+          
             <v-list-item-title class="red--text">ออกจากระบบ</v-list-item-title>
           </v-list-item>
         </v-list>
@@ -39,7 +41,7 @@ export default {
   name: "App",
 
   mounted() {
-    firebase.auth().onAuthStateChanged(user => {
+    firebase.auth().onAuthStateChanged((user) => {
       if (user == null) this.$router.replace("/signin");
       else this.$router.replace("/");
     });
@@ -48,8 +50,8 @@ export default {
   methods: {
     signout() {
       firebase.auth().signOut();
-    }
-  }
+    },
+  },
 };
 </script>
 

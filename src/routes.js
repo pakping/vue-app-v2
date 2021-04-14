@@ -7,8 +7,7 @@ import Checkout from "./components/Checkout.vue";
 import CheckoutProcess from "./components/CheckoutProcess.vue";
 import Signin from "./components/Signin.vue";
 
-const routes = [
-    {
+const routes = [{
         path: "/",
         component: Home
     },
@@ -23,18 +22,16 @@ const routes = [
     {
         path: "/checkout-process",
         component: CheckoutProcess
-    }, 
+    },
     {
         path: "/signin",
         component: Signin
     }
 ];
 
-const router = new VueRouter(
-    {
-        routes
-    }
-);
+const router = new VueRouter({
+    routes
+});
 
 Vue.use(VueRouter);
 
