@@ -22,4 +22,4 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-https://www.youtube.com/watch?v=tRmF68imAHI&list=PL0nX_uD1yCgwBiTaADuPJePopsSamJcet&index=1&t=7627s 
+https://www.youtube.com/watch?v=tRmF68imAHI&list=PL0nX_uD1yCgwBiTaADuPJePopsSamJcet&index=1&t=7627s . burfy https://buefy.org/documentation/radio
